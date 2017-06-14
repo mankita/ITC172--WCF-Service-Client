@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="809249bb-ddbf-4109-9144-62b84210a236" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:60386/Community_Assist.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Community_Assist.wsdl" MetadataType="Wsdl" ID="3f7dbbb5-470c-499e-8415-9319c5e699b2" SourceId="1" SourceUrl="http://localhost:60386/Community_Assist.svc?wsdl" />
+    <MetadataFile FileName="Community_Assist.xsd" MetadataType="Schema" ID="9e5212a0-fd97-4c67-b43f-408b8f55f271" SourceId="1" SourceUrl="http://localhost:60386/Community_Assist.svc?xsd=xsd2" />
+    <MetadataFile FileName="Community_Assist.disco" MetadataType="Disco" ID="b77b8b8e-fce1-4596-a9cd-9077c9403fb0" SourceId="1" SourceUrl="http://localhost:60386/Community_Assist.svc?disco" />
+    <MetadataFile FileName="Community_Assist1.xsd" MetadataType="Schema" ID="4c54d4e9-b973-4034-8192-3900aec1cbdb" SourceId="1" SourceUrl="http://localhost:60386/Community_Assist.svc?xsd=xsd1" />
+    <MetadataFile FileName="Community_Assist2.xsd" MetadataType="Schema" ID="ea68b4a4-2c71-44e3-a802-a44dbd78f866" SourceId="1" SourceUrl="http://localhost:60386/Community_Assist.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
